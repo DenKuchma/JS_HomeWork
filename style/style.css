@@ -1,0 +1,22 @@
+
+.slick-list.draggable {
+    padding: 0 !important;
+}
+
+.slider_screen {
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 400px;
+    min-height: 400px;
+    background-color: rgb(249, 252, 252);
+    border: 2px solid rgb(165, 141, 141);
+    border-radius: 25%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-group li {
+    padding: 5px; 
+}
