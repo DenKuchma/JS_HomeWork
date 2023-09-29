@@ -1,0 +1,56 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+h2{
+    margin-top: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="url"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+ul#userList {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul#userList li {
+    margin-bottom: 10px;
+}
+
+img.avatar {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
